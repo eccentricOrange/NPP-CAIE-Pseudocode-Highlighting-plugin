@@ -1,0 +1,83 @@
+<?xml version= "1.0" encoding= "Windows-1252" ?>
+
+<NotepadPlus>
+	<AutoComplete>
+		<Environment ignoreCase = "no" startFunc = "(" stopFunc = ")" paramSeparator= "," additionalWordChar = "." />
+            <KeyWord name = "AND" />
+            <KeyWord name = "APPEND" />
+            <KeyWord name = "ARRAY" />
+            <KeyWord name = "BOOLEAN" />
+            <KeyWord name = "BYREF" />
+            <KeyWord name = "BYVALUE" />
+            <KeyWord name = "CALL" />
+            <KeyWord name = "CASE" />
+            <KeyWord name = "CHAR" />
+            <KeyWord name = "CLOSEFILE" />
+            <KeyWord name = "CONSTANT" />
+            <KeyWord name = "DATE" />
+            <KeyWord name = "DECLARE" />
+            <KeyWord name = "DIV" func = "yes" >
+                <Overload retVal = "INTEGER" descr= "Integer division of a by b" >
+                    <Param name = "a, b" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "DO" />
+            <KeyWord name = "ELSE" />
+            <KeyWord name = "ENDCASE" />
+            <KeyWord name = "ENDFUNCTION" />
+            <KeyWord name = "ENDIF" />
+            <KeyWord name = "ENDPROCEDURE" />
+            <KeyWord name = "ENDTYPE" />
+            <KeyWord name = "EOF" func = "yes" >
+                <Overload retVal = "BOOLEAN" descr= "Returns TRUE if file pointer is at the end of the file and FALSE otherwise" >
+                    <Param name = "FileIdentifier" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "FALSE" />
+            <KeyWord name = "FOR" />
+            <KeyWord name = "FUNCTION" />
+            <KeyWord name = "GETRECORD" />
+            <KeyWord name = "IF" />
+            <KeyWord name = "INPUT" />
+            <KeyWord name = "INTEGER" />
+            <KeyWord name = "MOD" func = "yes" >
+                <Overload retVal = "INTEGER" descr= "Remainder of division of a by b" >
+                    <Param name = "a, b" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "ENDFOR" />
+            <KeyWord name = "NOT" />
+            <KeyWord name = "OF" />
+            <KeyWord name = "OPENFILE" />
+            <KeyWord name = "OR" />
+            <KeyWord name = "OTHERWISE" />
+            <KeyWord name = "OUTPUT" />
+            <KeyWord name = "PROCEDURE" />
+            <KeyWord name = "PUTRECORD" />
+            <KeyWord name = "RANDOM" />
+            <KeyWord name = "RANDOMBETWEEN" func = "yes" >
+                <Overload retVal = "INTEGER" descr= "Generates a random integer between the integers min and max" >
+                    <Param name = "min, max" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "READ" />
+            <KeyWord name = "READFILE" />
+            <KeyWord name = "REAL" />
+            <KeyWord name = "REPEAT" />
+            <KeyWord name = "RETURN" />
+            <KeyWord name = "RETURNS" />
+            <KeyWord name = "RND" />
+            <KeyWord name = "SEEK" />
+            <KeyWord name = "STEP" />
+            <KeyWord name = "STRING" />
+            <KeyWord name = "THEN" />
+            <KeyWord name = "TO" />
+            <KeyWord name = "TRUE" />
+            <KeyWord name = "TYPE" />
+            <KeyWord name = "UNTIL" />
+            <KeyWord name = "WHILE" />
+            <KeyWord name = "WRITE" />
+            <KeyWord name = "WRITEFILE" />
+            
+    </AutoComplete>
+</NotepadPlus>
