@@ -1,17 +1,17 @@
 //    Pseudo-code Syntax Definitions
-//    
+//
 //    This file is designed to showcase the pseudo-code library for Notepad++. It has been built with the following syllabuses in mind.
 //        * Cambridge International AS & A Level Computer Science 9608
 //        * Cambridge IGCSE Computer Science 0478
 //
 //    This document closely follows the requirements of the syllabus.
-//    
-//    
+//
+//
 //    Designed and maintained by
 //    Anuj Verma,
 //    Certified LabVIEW Associate Developer
 //
-//    Last updated 00:21 10-07-2019
+//    Last updated 02:56 01-04-2020
 
 
 /* 1 Pseudo-code in examined components */
@@ -37,7 +37,7 @@ DATE
 'H'
 "Hello"
 FALSE
-"09/07/2019"
+09/07/2019
 
 // 2.3 Identifiers
 VariableName
