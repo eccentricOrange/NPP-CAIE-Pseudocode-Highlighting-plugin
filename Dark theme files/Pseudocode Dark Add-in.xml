@@ -18,7 +18,7 @@
             <Keywords name="Folders in code1, open">WHILE REPEAT IF CASE</Keywords>
             <Keywords name="Folders in code1, middle"></Keywords>
             <Keywords name="Folders in code1, close">ENDWHILE UNTIL ENDIF NEXT ENDCASE ENDFOR</Keywords>
-            <Keywords name="Folders in code2, open">PROCEDURE FUNCTION TYPE</Keywords>
+            <Keywords name="Folders in code2, open">PROCEDURE FUNCTION</Keywords>
             <Keywords name="Folders in code2, middle"></Keywords>
             <Keywords name="Folders in code2, close">ENDPROCEDURE ENDFUNCTION ENDTYPE</Keywords>
             <Keywords name="Folders in comment, open">/*</Keywords>
