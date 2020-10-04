@@ -11,7 +11,7 @@
 //    Anuj Verma,
 //    Certified LabVIEW Associate Developer
 //
-//    Last updated 02:56 01-04-2020
+//    Last updated 21:56 05-10-2020 AD
 
 
 /* 1 Pseudo-code in examined components */
@@ -216,3 +216,5 @@ SEEK <<file identifier>>, <<address>>
 GETRECORD <<file identifier>>, <<variable>>
 
 PUTRECORD <<file identifier>>, <<variable>>
+
+CLOSEFILE <<file identifier>>
