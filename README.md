@@ -7,7 +7,7 @@ Notepad++ makes it possible to define "languages", or more precisely, highlighti
     [2017-2020] Cambridge International AS & A Level Computer Science 9608
     [2017-2019] Cambridge IGCSE Computer Science 0478
 
-All instructions and other data mentioned here has been tested with Notepad++ v7.8.9 on a computer running Windows 10. The languages tested are Python 2.7.13, Python 3.8.5 and Arduino 1.8.9 C++.
+All instructions and other data mentioned here has been tested with Notepad++ v7.8.9 on a computer running Windows 10.
 
 Please visit https://npp-user-manual.org/docs/user-defined-language-system/#import-a-udl to find the latest installation instructions for the main UDL file
 Please visit https://npp-user-manual.org/docs/auto-completion/#auto-completion-file-format to find the latest installation instructions for the auto completion file.
