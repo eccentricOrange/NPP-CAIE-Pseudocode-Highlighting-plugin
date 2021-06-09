@@ -1,0 +1,138 @@
+<?xml version= "1.0" encoding= "Windows-1252" ?>
+
+<NotepadPlus>
+	<AutoComplete>
+		<Environment ignoreCase = "no" startFunc = "(" stopFunc = ")" paramSeparator= "," additionalWordChar = "." />
+            <KeyWord name = "AND" />
+            <KeyWord name = "APPEND" />
+            <KeyWord name = "ARRAY" />
+            <KeyWord name = "ASC" func = "yes" >
+                <Overload retVal = "INTEGER" descr= "returns the ASCII value of ThisChar" >
+                    <Param name = "ThisChar" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "BOOLEAN" />
+            <KeyWord name = "BYREF" />
+            <KeyWord name = "BYVALUE" />
+            <KeyWord name = "CALL" />
+            <KeyWord name = "CASE" />
+            <KeyWord name = "CHAR" />
+            <KeyWord name = "CHR" func = "yes" >
+                <Overload retVal = "CHAR" descr= "returns the character whose ASCII value is x" >
+                    <Param name = "x" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "CLOSEFILE" />
+            <KeyWord name = "CONSTANT" />
+            <KeyWord name = "DATE" />
+            <KeyWord name = "DECLARE" />
+            <KeyWord name = "DIV" func = "yes" >
+                <Overload retVal = "INTEGER" descr= "integer division of a by b" >
+                    <Param name = "a, b" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "DO" />
+            <KeyWord name = "ELSE" />
+            <KeyWord name = "ENDCASE" />
+            <KeyWord name = "ENDFOR" />
+            <KeyWord name = "ENDFUNCTION" />
+            <KeyWord name = "ENDIF" />
+            <KeyWord name = "ENDPROCEDURE" />
+            <KeyWord name = "ENDTYPE" />
+            <KeyWord name = "EOF" func = "yes" >
+                <Overload retVal = "BOOLEAN" descr= "returns TRUE if file pointer is at the end of the file and FALSE otherwise" >
+                    <Param name = "FileIdentifier" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "FALSE" />
+            <KeyWord name = "FOR" />
+            <KeyWord name = "FUNCTION" />
+            <KeyWord name = "GETRECORD" />
+            <KeyWord name = "IF" />
+            <KeyWord name = "INPUT" />
+            <KeyWord name = "INT" func = "yes" >
+                <Overload retVal = "INTEGER" descr= "returns the integer part of x (truncate)" >
+                    <Param name = "x" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "INTEGER" />
+            <KeyWord name = "LCASE" func = "yes">
+                <Overload retVal = "CHAR" descr= "returns the character value representing the lower case equivalent of ThisChar. If ThisChar is not an upper case alphabetic character, it is returned unchanged." >
+                    <Param name = "ThisChar" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "LEFT" func = "yes" >
+                <Overload retVal = "STRING" descr= "returns leftmost x characters from ThisString" >
+                    <Param name = "ThisString, x" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "LENGTH" func = "yes">
+                <Overload retVal = "INTEGER" descr= "returns the integer value representing the length of ThisString" >
+                    <Param name = "ThisString" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "MID" func = "yes">
+                <Overload retVal = "STRING" descr= "returns a string of length y starting at position x from ThisString" >
+                    <Param name = "ThisString, x, y" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "MOD" func = "yes" >
+                <Overload retVal = "INTEGER" descr= "returns the integer value representing the remainder when ThisNum is divided by ThisDiv" >
+                    <Param name = "ThisNum, ThisDiv" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "NOT" />
+            <KeyWord name = "NUM_TO_STRING" func = "yes">
+                <Overload retVal = "STRING" descr= "returns a string representation of a numeric value. Note: This function will also work if x is of type INTEGER." >
+                    <Param name = "x" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "OF" />
+            <KeyWord name = "OPENFILE" />
+            <KeyWord name = "OR" />
+            <KeyWord name = "OTHERWISE" />
+            <KeyWord name = "OUTPUT" />
+            <KeyWord name = "PROCEDURE" />
+            <KeyWord name = "PUTRECORD" />
+            <KeyWord name = "RANDOM" />
+            <KeyWord name = "RANDOMBETWEEN" func = "yes" >
+                <Overload retVal = "INTEGER" descr= "generates a random integer between the integers min and max" >
+                    <Param name = "min, max" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "READ" />
+            <KeyWord name = "READFILE" />
+            <KeyWord name = "REAL" />
+            <KeyWord name = "REPEAT" />
+            <KeyWord name = "RETURN" />
+            <KeyWord name = "RETURNS" />
+            <KeyWord name = "RIGHT" func = "yes" >
+                <Overload retVal = "STRING" descr= "returns rightmost x characters from ThisString" >
+                    <Param name = "ThisString, x" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "RND" />
+            <KeyWord name = "SEEK" />
+            <KeyWord name = "STEP" />
+            <KeyWord name = "STRING" />
+            <KeyWord name = "STRING_TO_NUM" func = "yes">
+                <Overload retVal = "REAL" descr= "returns a numeric representation of a string. Note: This function will also work if x is of type CHAR." >
+                    <Param name = "x" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "THEN" />
+            <KeyWord name = "TO" />
+            <KeyWord name = "TRUE" />
+            <KeyWord name = "TYPE" />
+            <KeyWord name = "UCASE" func = "yes">
+                <Overload retVal = "CHAR" descr= "returns the character value representing the upper case equivalent of ThisChar. If ThisChar is not a lower case alphabetic character, it is returned unchanged." >
+                    <Param name = "ThisChar" />
+                </Overload>
+            </KeyWord>
+            <KeyWord name = "UNTIL" />
+            <KeyWord name = "WHILE" />
+            <KeyWord name = "WRITE" />
+            <KeyWord name = "WRITEFILE" />
+            
+    </AutoComplete>
+</NotepadPlus>
