@@ -1,6 +1,6 @@
-## Installation
+# Installation
 
-### Downloading and installing Notepad++
+## Download and install Notepad++
 1. Download Notepad++ from it's official website.
 
     [Visit website](https://notepad-plus-plus.org/download/)
@@ -11,8 +11,8 @@
 
 3. Restart your system after installing the application
 
-### Installing the Pseudocode Library
-1. Download the ZIP folder that has the installation files, and then extract them.
+## Install the Pseudocode Library
+1. Download the ZIP folder that has the installation files, and then extract them. You should find four files, which you'll use for the installing my plug-in in Notepad++.
 
     [Download](https://downgit.github.io/#/home?url=https://github.com/eccentricOrange/NPP-CAIE-Pseudocode-Highlighting-plugin/tree/master/npp-psu-plugin&rootDirectory=false)
     
@@ -28,7 +28,7 @@
 11. Restart the Notepad++ application
 12. Click on the **Language** menu. If `PseudoCode` appears on the list, the add-on has successfully been imported.
 
-### Change settings (optional)
+## Change settings (optional)
 Notepad++ ships with settings aimed at programmers and you might not be comfortable with these. Follow the steps below to change them, if that is the case.
 1.	Launch Notepad++
 2.	Click the **Preferences** option under the **Settings** menu. This should open a new window
@@ -38,7 +38,7 @@ Notepad++ ships with settings aimed at programmers and you might not be comforta
 6.	Click **Close** to exit.
 7.	Restart the Notepad++ application
 
-### Set Notepad++ as the default application for pseudocode files (optional)
+## Set Notepad++ as the default application for pseudocode files (optional)
 Pseudocode files are saved with the file extension `.psu`. Since you are not likely to have another editor for pseudocode, it is recommended to set Notepad++ as the default application to use pseudocode files.
 1.	Download the file `Pseudocode Syntax.psu` to your computer
 2.	In File Explorer, select the file, right-click on it and click **Properties**
