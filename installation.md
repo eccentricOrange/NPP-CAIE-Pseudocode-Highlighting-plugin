@@ -12,7 +12,7 @@
 3. Restart your system after installing the application
 
 ## Install the Pseudocode Library
-1. Download the ZIP folder that has the installation files, and then extract them. You should find four files, which you'll use for the installing my plug-in in Notepad++.
+1. Download the ZIP folder that has the installation files, and then extract them. You should find five files, which you'll use for the installing my plug-in in Notepad++.
 
     [Download](https://downgit.github.io/#/home?url=https://github.com/eccentricOrange/NPP-CAIE-Pseudocode-Highlighting-plugin/tree/master/npp-psu-plugin&rootDirectory=false)
     

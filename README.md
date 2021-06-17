@@ -6,6 +6,8 @@ Notepad++ makes it possible to define "languages", or more precisely, highlighti
 
 All instructions and other data mentioned here has been tested with Notepad++ v7.8.9 on a computer running Windows 10.
 
+![Preview in Notepad++](assets/preview.png)
+
 ## Disclaimer
 While all reasonable efforts have been made to ensure full compatibility with the syllabuses (and the author himself uses this for his own assignments and practice), this is not an official resource nor has it been endorsed by Cambridge International Assessment Education for any syllabus. Please use it at your own discretion. The author will not be responsible for any syllabus mismatches.
 
